@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>MY</title>
+<style>
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.container {
+    width : 1200px;
+    margin: 0;
+}
+.header {
+    height: 120px;
+    background-color: aliceblue;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    display : flex;
+    height: 600px;
+}
+
+.left_sidebar {
+    width : 250px;
+    display : flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content {
+    flex : 800px;
+    background-color: rgb(236, 255, 242);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_sidebar {
+    flex : 1;
+    display : flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer {
+    width : 1200px;
+    height: 100px;
+    background-color: rgb(225, 243, 255);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+  
+</head>
+<body>
+<div class="container">
+  <div class="header">헤더</div>
+  
+  <div class="main-wrapper">
+    <div class="left_sidebar">사이드 바</div>
+    <div class="content">본문</div>
+    <div class="right_sidebar">사이드 바</div>
+  </div>
+  
+  <div class="footer">푸터</div>
+</div>
+</div>
+</body>
+</html>
